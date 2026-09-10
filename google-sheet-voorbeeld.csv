@@ -1,0 +1,12 @@
+type,id,parent,name,code,period,release_date,logo,url,active,featured,promo_logo,flag,direct_url
+series,graded,,Graded kaarten,,PSA graded kaarten,,psa-logo.png,,true,true,,,https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/graded-kaarten
+series,promos,,Promo Series,,Black Star Promo-reeksen,,,,true,true,true,,
+series,japanese,,Japanse Series,,Japanse sets,,,,true,true,,https://flagcdn.com/jp.svg,
+series,korean,,Koreaanse Series,,Koreaanse sets,,,,true,true,,https://flagcdn.com/kr.svg,
+series,chinese,,Chinese Series,,Chinese sets,,,,false,true,,https://flagcdn.com/cn.svg,
+series,mega,,Mega Evolution Series,,2025 – heden,2025-09-26,https://assets.tcgdex.net/en/me/me01/logo.webp,,true,false,,,
+set,,mega,Chaos Rising,CRI,,2026-05-25,https://assets.tcgdex.net/en/me/me04/logo.webp,https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/chaos-rising,true,,,,
+set,,mega,Perfect Order,POR,,2026-03-27,https://assets.tcgdex.net/en/me/me03/logo.webp,https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/perfect-order,true,,,,
+set,,mega,Ascended Heroes,MEH,,2026-01-30,https://assets.tcgdex.net/en/me/me02.5/logo.webp,https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/ascended-heroes,true,,,,
+set,,mega,Phantasmal Flames,PFL,,2025-11-14,https://assets.tcgdex.net/en/me/me01/logo.webp,https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/phantasmal-flames,true,,,,
+set,,mega,Mega Evolution,MEG,,2025-09-26,https://assets.tcgdex.net/en/me/me01/logo.webp,https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/mega-evolution,true,,,,
