@@ -23,14 +23,14 @@
     .lead{margin:0;color:var(--muted);font-size:16px;line-height:1.6;max-width:720px}
     .grid{display:flex;flex-direction:column;gap:12px}
     .tile{position:relative;isolation:isolate;display:flex;min-height:126px;overflow:hidden;text-align:left;border:1px solid #2c8c47;border-radius:16px;background:linear-gradient(115deg,#0d3a68 0%,#0a315c 38%,#08294e 72%,#071f3f 100%);background-size:180% 100%;background-position:0 0;box-shadow:0 14px 34px rgba(0,0,0,.22),inset 0 1px 0 rgba(85,169,255,.10);color:inherit;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease,background-position .5s ease}
-    .tile:before,.set-card:before{content:"";position:absolute;z-index:0;inset:-7%;pointer-events:none;background:linear-gradient(90deg,rgba(4,24,49,.52),rgba(4,24,49,.78)),url('Z_Zamex_bezig_transperant02.png') center 46%/cover no-repeat;opacity:.24;transform:scale(1.04);transition:opacity .38s ease,transform .65s cubic-bezier(.2,.7,.2,1),background-position .65s ease}
+    .tile:before,.set-card:before{content:"";position:absolute;z-index:0;inset:-4%;pointer-events:none;background:linear-gradient(90deg,rgba(3,26,53,.08),rgba(3,26,53,.38)),url('Z_Zamex_bezig_transperant02.png') center 47%/cover no-repeat;opacity:.62;transform:scale(1.02);transition:opacity .38s ease,transform .65s cubic-bezier(.2,.7,.2,1),background-position .65s ease}
     .tile>.art,.tile>.body,.set-card>.logo-box,.set-card>.set-body{position:relative;z-index:1}
     a.tile{width:100%;text-decoration:none;cursor:pointer}
     button.tile{width:100%;cursor:pointer;padding:0}
     .tile:hover{transform:translateY(-3px);background-position:100% 0;border-color:#55d764;box-shadow:0 20px 46px rgba(0,0,0,.32),0 0 0 1px rgba(85,215,100,.18),0 0 24px rgba(45,140,255,.13)}
-    .tile:hover:before,.set-card:hover:before{opacity:.38;transform:scale(1.09);background-position:center 52%}
+    .tile:hover:before,.set-card:hover:before{opacity:.82;transform:scale(1.07);background-position:center 52%}
     .tile:hover .go{background:linear-gradient(135deg,rgba(68,211,91,.22),rgba(45,140,255,.18));box-shadow:0 0 18px rgba(68,211,91,.10)}
-    .art{position:relative;flex:0 0 220px;min-height:124px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(circle at 48% 52%,rgba(85,169,255,.42),transparent 60%),linear-gradient(135deg,#114a7b,#092b50)}
+    .art{position:relative;flex:0 0 220px;min-height:124px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(circle at 48% 52%,rgba(85,169,255,.32),transparent 60%),linear-gradient(135deg,rgba(17,74,123,.72),rgba(9,43,80,.68))}
     .art:after{content:"";position:absolute;inset:0 0 0 auto;width:45px;background:linear-gradient(90deg,transparent,rgba(5,25,52,.98))}
     .art img{position:relative;z-index:1;width:72%;max-height:88px;object-fit:contain;filter:drop-shadow(0 10px 12px rgba(0,0,0,.55))}
     .group-mark{position:relative;z-index:1;display:grid;place-items:center;width:132px;height:92px;border:2px solid rgba(85,215,100,.75);border-radius:20px;background:linear-gradient(145deg,#0a294e,#071f3f);box-shadow:0 12px 28px rgba(0,0,0,.32);font-size:31px;font-weight:900;color:var(--green)}
@@ -51,7 +51,7 @@
     .set-card{position:relative;isolation:isolate;display:flex;min-height:126px;padding:0;overflow:hidden;border:1px solid #31587b;border-radius:15px;background:linear-gradient(115deg,#0c3763 0%,#0a3159 42%,#082749 76%,#071f3f 100%);background-size:180% 100%;background-position:0 0;box-shadow:0 14px 34px rgba(0,0,0,.22),inset 0 1px 0 rgba(85,169,255,.09);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease,background-position .5s ease}
     .set-card:hover{transform:translateY(-2px);background-position:100% 0;border-color:#44d35b;box-shadow:0 19px 42px rgba(0,0,0,.30),0 0 22px rgba(45,140,255,.11)}
     .set-card:hover .shop:not([aria-disabled="true"]){filter:brightness(1.1);box-shadow:0 0 18px rgba(68,211,91,.16)}
-    .logo-box{flex:0 0 220px;min-height:124px;padding:20px 24px;display:grid;place-items:center;background:radial-gradient(circle,rgba(85,169,255,.34),transparent 68%),linear-gradient(135deg,rgba(14,65,111,.86),rgba(7,35,68,.72))}
+    .logo-box{flex:0 0 220px;min-height:124px;padding:20px 24px;display:grid;place-items:center;background:radial-gradient(circle,rgba(85,169,255,.26),transparent 68%),linear-gradient(135deg,rgba(14,65,111,.66),rgba(7,35,68,.58))}
     .logo-box img{max-width:100%;max-height:88px;object-fit:contain;filter:drop-shadow(0 8px 10px rgba(0,0,0,.45))}
     .code-art{display:grid;place-items:center;width:112px;height:78px;border:2px solid #31587b;border-radius:16px;background:linear-gradient(145deg,#0a294e,#071f3f);color:var(--green);font-size:27px;font-weight:900;box-shadow:0 10px 24px rgba(0,0,0,.28)}
     .promo-logo{position:relative;display:grid;place-items:center;width:100%;height:100%}.promo-logo img{max-width:78%;max-height:70px;transform:translateY(-8px)}.promo-logo strong{position:absolute;left:50%;bottom:2px;transform:translateX(-50%) rotate(-3deg);padding:3px 12px;border:2px solid #fff;border-radius:999px;background:#05080c;color:#fff;font-size:15px;font-weight:900;letter-spacing:.4px;box-shadow:0 6px 14px rgba(0,0,0,.4)}.promo-logo strong:before{content:'★';margin-right:6px;color:#fff}
@@ -153,8 +153,15 @@
       ],
       japanese:[
         {name:'Terastal Festival ex',code:'sv8a',date:'6 december 2024',logo:'jp-terastal.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv8a-terastal-festival'},
+        {name:'Super Electric Breaker',code:'sv8',date:'18 oktober 2024',logo:'jp-super-electric-breaker.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv8-super-electric-breaker'},
         {name:'Paradise Dragona',code:'sv7a',date:'13 september 2024',logo:'jp-paradise.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv7a-paradise-dragona'},
+        {name:'Night Wanderer',code:'sv6a',date:'7 juni 2024',logo:'jp-night-wanderer.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv6a-night-wanderer'},
+        {name:'Shiny Treasure ex',code:'sv4a',date:'1 december 2023',logo:'jp-shiny-treasure-ex.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv4a-shiny-treasure-ex'},
+        {name:'Ancient Roar',code:'sv4K',date:'27 oktober 2023',logo:'jp-ancient-roar.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv4k-ancient-roar'},
         {name:'Pokémon Card 151',code:'sv2a',date:'16 juni 2023',logo:'jp-151.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv2a-151'},
+        {name:'Violet ex',code:'sv1V',date:'20 januari 2023',logo:'jp-violet-ex.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-sv1v-violet-ex'},
+        {name:'VSTAR Universe',code:'s12a',date:'2 december 2022',logo:'jp-vstar-universe.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-s12a-vstar-universe'},
+        {name:'Paradigm Trigger',code:'s12',date:'21 oktober 2022',logo:'jp-paradigm-trigger.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/japans-s12-paradigm-trigger'},
         {name:'VMAX Climax',code:'s8b',date:'3 december 2021',logo:'jp-vmax-climax.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/japanse-series/vmax-climax-s8b'}
       ],
       korean:[
