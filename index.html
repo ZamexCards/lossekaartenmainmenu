@@ -23,12 +23,12 @@
     .lead{margin:0;color:var(--muted);font-size:16px;line-height:1.6;max-width:720px}
     .grid{display:flex;flex-direction:column;gap:12px}
     .tile{position:relative;isolation:isolate;display:flex;min-height:126px;overflow:hidden;text-align:left;border:1px solid #2c8c47;border-radius:16px;background:linear-gradient(115deg,#0d3a68 0%,#0a315c 38%,#08294e 72%,#071f3f 100%);background-size:180% 100%;background-position:0 0;box-shadow:0 14px 34px rgba(0,0,0,.22),inset 0 1px 0 rgba(85,169,255,.10);color:inherit;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease,background-position .5s ease}
-    .tile:before,.set-card:before{content:"";position:absolute;z-index:0;inset:-6%;pointer-events:none;background:linear-gradient(90deg,rgba(3,26,53,.08),rgba(3,26,53,.38)),url('Z_Zamex_bezig.png') center 22%/67% auto no-repeat;opacity:.62;filter:blur(2.2px);transform:scale(1.04);transition:opacity .38s ease,transform .65s cubic-bezier(.2,.7,.2,1),background-position .65s ease}
+    .tile:before,.set-card:before{content:"";position:absolute;z-index:0;inset:-6%;pointer-events:none;background:linear-gradient(90deg,rgba(3,26,53,.08),rgba(3,26,53,.38)),url('Z_Zamex_bezig.png') center 22%/100% auto no-repeat;opacity:.77;filter:blur(2.2px);transform:scale(1.04);transition:opacity .38s ease,transform .65s cubic-bezier(.2,.7,.2,1),background-position .65s ease}
     .tile>.art,.tile>.body,.set-card>.logo-box,.set-card>.set-body{position:relative;z-index:1}
     a.tile{width:100%;text-decoration:none;cursor:pointer}
     button.tile{width:100%;cursor:pointer;padding:0}
     .tile:hover{transform:translateY(-3px);background-position:100% 0;border-color:#55d764;box-shadow:0 20px 46px rgba(0,0,0,.32),0 0 0 1px rgba(85,215,100,.18),0 0 24px rgba(45,140,255,.13)}
-    .tile:hover:before,.set-card:hover:before{opacity:.82;transform:scale(1.09);background-position:center 27%}
+    .tile:hover:before,.set-card:hover:before{opacity:.95;transform:scale(1.09);background-position:center 27%}
     .tile:hover .go{background:linear-gradient(135deg,rgba(68,211,91,.22),rgba(45,140,255,.18));box-shadow:0 0 18px rgba(68,211,91,.10)}
     .art{position:relative;flex:0 0 220px;min-height:124px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(circle at 48% 52%,rgba(85,169,255,.32),transparent 60%),linear-gradient(135deg,rgba(17,74,123,.72),rgba(9,43,80,.68))}
     .art:after{content:"";position:absolute;inset:0 0 0 auto;width:45px;background:linear-gradient(90deg,transparent,rgba(5,25,52,.98))}
@@ -101,7 +101,7 @@
         {name:'Chaos Rising',code:'CRI',date:'25 mei 2026',logo:'https://assets.tcgdex.net/en/me/me04/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/chaos-rising'},
         {name:'Perfect Order',code:'POR',date:'27 maart 2026',logo:'https://assets.tcgdex.net/en/me/me03/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/perfect-order'},
         {name:'Ascended Heroes',code:'MEH',date:'30 januari 2026',logo:'https://assets.tcgdex.net/en/me/me02.5/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/ascended-heroes'},
-        {name:'Phantasmal Flames',code:'PFL',date:'14 november 2025',logo:'https://assets.tcgdex.net/en/me/me01/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/phantasmal-flames'},
+        {name:'Phantasmal Flames',code:'PFL',date:'14 november 2025',logo:'en-phantasmal-flames.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/phantasmal-flames'},
         {name:'Mega Evolution',code:'MEG',date:'26 september 2025',logo:'https://assets.tcgdex.net/en/me/me01/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/mega-evolution-series/mega-evolution'}
       ],
       sv:[
@@ -112,7 +112,7 @@
         {name:'Stellar Crown',code:'SCR',date:'13 september 2024',logo:'https://assets.tcgdex.net/en/sv/sv07/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/stellar-crown'},
         {name:'Shrouded Fable',code:'SFA',date:'2 augustus 2024',logo:'https://assets.tcgdex.net/en/sv/sv06.5/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/shrouded-fable'},
         {name:'Twilight Masquerade',code:'TWM',date:'24 mei 2024',logo:'https://assets.tcgdex.net/en/sv/sv06/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/twilight-masquerade'},
-        {name:'Temporal Forces',code:'TEF',date:'22 maart 2024',logo:'https://images.pokemontcg.io/sv5/logo.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/temporal-forces'},
+        {name:'Temporal Forces',code:'TEF',date:'22 maart 2024',logo:'en-temporal-forces.png',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/temporal-forces'},
         {name:'Paldean Fates',code:'PAF',date:'26 januari 2024',logo:'https://assets.tcgdex.net/en/sv/sv04.5/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/paldean-fates'},
         {name:'Paradox Rift',code:'PAR',date:'3 november 2023',logo:'https://assets.tcgdex.net/en/sv/sv04/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/paradox-rift'},
         {name:'151',code:'MEW',date:'22 september 2023',logo:'https://assets.tcgdex.net/en/sv/sv03.5/logo.webp',url:'https://www.zamexcards.nl/losse-kaarten/losse-kaarten-pokemon-tcg/scarlet-violet-series/151'},
@@ -192,7 +192,7 @@
     ];
     let series=[];
     const seriesGrid=document.querySelector('#seriesGrid'),setsGrid=document.querySelector('#setsGrid');
-    const localLogos={sv8a:'jp-terastal.png',sv8:'jp-super-electric-breaker.png',sv7a:'jp-paradise.png',sv6a:'jp-night-wanderer.png',sv4a:'jp-shiny-treasure-ex.png',sv4k:'jp-ancient-roar.png',sv2a:'jp-151.png',sv1v:'jp-violet-ex.png',s12a:'jp-vstar-universe.png',s12:'jp-paradigm-trigger.png',s8b:'jp-vmax-climax.png'};
+    const localLogos={pfl:'en-phantasmal-flames.webp',tef:'en-temporal-forces.png',sv8a:'jp-terastal.png',sv8:'jp-super-electric-breaker.png',sv7a:'jp-paradise.png',sv6a:'jp-night-wanderer.png',sv4a:'jp-shiny-treasure-ex.png',sv4k:'jp-ancient-roar.png',sv2a:'jp-151.png',sv1v:'jp-violet-ex.png',s12a:'jp-vstar-universe.png',s12:'jp-paradigm-trigger.png',s8b:'jp-vmax-climax.png'};
     const monthNumbers={januari:0,februari:1,maart:2,april:3,mei:4,juni:5,juli:6,augustus:7,september:8,oktober:9,november:10,december:11};
     function parseDate(value){if(!value)return null;const v=value.trim();let m;if((m=v.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/)))return new Date(Number(m[1]),Number(m[2])-1,Number(m[3]));if((m=v.match(/^(\d{1,2})[-\/.](\d{1,2})[-\/.](\d{4})$/)))return new Date(Number(m[3]),Number(m[2])-1,Number(m[1]));const p=v.toLowerCase().split(/\s+/);return p.length===3&&monthNumbers[p[1]]!==undefined?new Date(Number(p[2]),monthNumbers[p[1]],Number(p[0])):null}
     function dateValue(value){const d=parseDate(value);return d&&!Number.isNaN(d.getTime())?d.getTime():0}
